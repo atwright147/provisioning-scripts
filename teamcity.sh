@@ -2,7 +2,7 @@
 
 set -e
 
-sudo apt-get install \
+sudo apt-get install -y \
     apt-transport-https \
     ca-certificates \
     curl \
@@ -18,7 +18,7 @@ sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/u
 
 sudo apt update;
 
-sudo apt-get install docker-ce;
+sudo apt-get install -y docker-ce;
 
 sudo usermod -a -G docker $USER;
 
