@@ -29,6 +29,9 @@ sudo apt-get install -y docker-ce;
 echo "Add current user to docker group";
 sudo usermod -a -G docker $USER;
 
+echo "Reload groups";
+su - $USER;  # from: https://superuser.com/a/354475/151895
+
 echo "Create local folders for teamcity data and logs";
 mkdir -p teamcity/data teamcity/logs;
 
