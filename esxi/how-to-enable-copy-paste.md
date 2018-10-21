@@ -17,4 +17,6 @@ These steps were tested on ESXi 6.0
 1. If you chose to use vi, type :wq! to close the file
 1. Restart your VM.
 
+If you use nano, you might need to set `export TERM=xterm` to make it work.
+
 _From: https://wikileaks.org/ciav7p1/cms/page_24674311.html_
