@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# http://www.ubuntuboss.com/ubuntu-server-18-04-as-a-hypervisor-using-kvm-and-kimchi-for-vm-management/
+# FROM: http://www.ubuntuboss.com/ubuntu-server-18-04-as-a-hypervisor-using-kvm-and-kimchi-for-vm-management/
+# FROM: https://blog.thenets.org/create-a-linux-server-for-vm-and-manage-through-web-with-kvm-kimchi-wok/
 
 set -e &&\
 
